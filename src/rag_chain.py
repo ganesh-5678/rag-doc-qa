@@ -28,7 +28,7 @@ def build_prompt() -> ChatPromptTemplate:
     ])
 
 
-def get_llm(api_key: str, model: str = "llama3-8b-8192", temperature: float = 0.2) -> ChatGroq:
+def get_llm(api_key: str, model: str = "llama-3.1-8b-instant", temperature: float = 0.2) -> ChatGroq:
     """
     Initialise the Groq LLaMA3 chat model.
     """
